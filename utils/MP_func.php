@@ -1,3 +1,4 @@
+<!-- Massimo Parlanti -->
 <?php
 require_once $_SERVER['DOCUMENT_ROOT'] . '/PisaSC/utils/MP_properties.php';
 

@@ -1,3 +1,4 @@
+<!-- Massimo Parlanti -->
 <html>
 
 <head>
@@ -14,7 +15,7 @@
 			$msg = "Non sei autenticato";
 			header("Location:..\utils\MP-ErrorPage.php?errore=" . $msg);; //pagina di errore
 		}
-		echo "<h2 class=active> " . $bool . "</h2>";
+		echo "<h2 class=active> " .htmlentities($bool). "</h2>";
 
 		// Icon -->
 		echo "<div class=fadeIn first>";
